@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deven Patel — Mechanical Engineering Portfolio</title>
+<meta name="description" content="Communication portfolio of Deven Patel, 2nd-Year Mechanical Engineering student at the Lassonde School of Engineering, York University.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="#top" aria-label="Deven Patel, back to top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="36" height="36"><rect x="1" y="1" width="38" height="38" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 28V12h6.2c3.6 0 5.8 2 5.8 5.1 0 3.1-2.2 5.1-5.8 5.1H14v5.8z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M14 15.4h3c1.6 0 2.6.9 2.6 2.4s-1 2.4-2.6 2.4h-3" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </span>
+      <span class="brand-text">Deven Patel</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#reflection">Reflection</a></li>
+        <li><a href="#beyond">Beyond the Classroom</a></li>
+        <li><a href="#connect">Connect</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <!-- TODO: replace href="#" with your real LinkedIn URL -->
+      <a class="btn btn-ghost btn-sm nav-linkedin" href="#" target="_blank" rel="noopener">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z" stroke-linejoin="round"/><path d="M8 10.5v6M8 8v.01M12 16.5v-3.8c0-1.5 1-2.4 2.3-2.4 1.3 0 2.2.9 2.2 2.4v3.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+    <ul>
+      <li><a href="#showcase">Showcase</a></li>
+      <li><a href="#reflection">Reflection</a></li>
+      <li><a href="#beyond">Beyond the Classroom</a></li>
+      <li><a href="#connect">Connect</a></li>
+      <!-- TODO: replace href="#" with your real LinkedIn URL -->
+      <li><a href="#" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Communication Portfolio · ENG 2003 · Term Project 02</p>
+        <h1>Deven Patel</h1>
+        <p class="hero-role">2nd-Year Mechanical Engineering Student<br>Lassonde School of Engineering, York University</p>
+        <p class="hero-lede">I build things, break them, measure why, and write down what I learned — this portfolio traces four pieces of work and a semester spent learning that engineering communication is a design problem in its own right.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#showcase">View My Showcase</a>
+          <!-- TODO: replace href="#" with your real LinkedIn URL -->
+          <a class="btn btn-outline-invert" href="#" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>Program</dt><dd>Mechanical Engineering</dd></div>
+          <div><dt>Year</dt><dd>2nd Year</dd></div>
+          <div><dt>School</dt><dd>Lassonde, York University</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <!--
+          TODO: swap this placeholder for your photo. Replace the whole
+          <div class="photo-frame">…</div> block below with:
+          <img class="photo-frame photo-frame--filled" src="assets/profile-photo.jpg" alt="Deven Patel">
+        -->
+        <div class="photo-frame" role="img" aria-label="Placeholder for profile photo">
+          <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.5-3.5 4.5-5.5 7-5.5s5.5 2 7 5.5"/></svg>
+          <p>Add your photo here<br><span>Recommended: 900×1100px, professional headshot</span></p>
+        </div>
+        <div class="frame-corner tl" aria-hidden="true"></div>
+        <div class="frame-corner br" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOWCASE ============ -->
+  <section class="section section-showcase" id="showcase">
+    <div class="section-inner">
+      <p class="section-kicker">01 / Showcase</p>
+      <h2>Four Pieces, One Communicator</h2>
+      <p class="section-intro">Three from ENG 2003, one from outside it — each pushed my communication skills in a different direction: technical argument, audience adaptation, self-promotion, and honest technical storytelling.</p>
+
+      <div class="tabs" data-tabs>
+        <div class="tab-list" role="tablist" aria-label="Showcase pieces">
+          <button class="tab-btn is-active" role="tab" id="tab-1" aria-controls="panel-1" aria-selected="true" data-tab="1">
+            <span class="tab-num">01</span>
+            <span class="tab-label">Hydrogen Fuel-Cell Report</span>
+            <span class="tab-tag">ENG 2003 · Term Project 1</span>
+          </button>
+          <button class="tab-btn" role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" tabindex="-1" data-tab="2">
+            <span class="tab-num">02</span>
+            <span class="tab-label">Three-Audience Handout</span>
+            <span class="tab-tag">ENG 2003 · Assignment 3</span>
+          </button>
+          <button class="tab-btn" role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" tabindex="-1" data-tab="3">
+            <span class="tab-num">03</span>
+            <span class="tab-label">Cover Letter</span>
+            <span class="tab-tag">ENG 2003 · Assignment 1</span>
+          </button>
+          <button class="tab-btn" role="tab" id="tab-4" aria-controls="panel-4" aria-selected="false" tabindex="-1" data-tab="4">
+            <span class="tab-num">04</span>
+            <span class="tab-label">Sleep Quality Monitor</span>
+            <span class="tab-tag">EECS 1011 · Final Report</span>
+          </button>
+        </div>
+
+        <!-- Panel 1 -->
+        <div class="tab-panel" id="panel-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+          <header class="panel-head">
+            <h3>Hydrogen Fuel-Cell Vehicles Report</h3>
+            <p class="panel-sub">Term Project 1, Phase 4 — ENG 2003</p>
+          </header>
+          <div class="qa-grid">
+            <article class="qa">
+              <h4>Why I selected this piece</h4>
+              <p>This report is the most demanding piece of writing I produced this year, and it is the one that went through the most complete communication cycle: draft, peer review, revision, and reflection. I chose it because it shows the full arc of turning a rough technical argument into a polished, evidence-based recommendation, rather than a single draft submitted once and forgotten.</p>
+            </article>
+            <article class="qa">
+              <h4>What it says about my development as a communicator</h4>
+              <p>Writing this report forced me to move beyond just presenting information to actually building an argument the reader could trust. I had to be honest about the limits of my own evidence — for example, admitting in the Discussion section that none of my sources directly prove curtailed renewable electricity is being converted into vehicle hydrogen, instead of overstating my conclusion. Reconciling three different sets of peer feedback, documented in Appendix A, also taught me how to prioritize revisions: fixing mechanics and transitions, tightening the title, and correcting terminology, without losing the structure that was already working.</p>
+            </article>
+            <article class="qa">
+              <h4>Did this piece push me out of my comfort zone?</h4>
+              <p>Yes. Structuring a formal engineering report with an executive summary, IEEE citations, figures, and an appendix was new territory for me, and incorporating three rounds of peer critique into a single coherent revision, without the feedback contradicting itself in the final draft, was harder than writing the original draft.</p>
+            </article>
+            <article class="qa">
+              <h4>Is this my best work? Why or why not?</h4>
+              <p>I believe it is. It is the only piece where I revised based on outside feedback rather than my own read of the draft, and the finished report is more transparent about its own limitations than my earlier drafts were, which I think makes it more credible, not less.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Panel 2 -->
+        <div class="tab-panel" id="panel-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0" hidden>
+          <header class="panel-head">
+            <h3>Three-Audience Handout</h3>
+            <p class="panel-sub">Assignment 3 — ENG 2003</p>
+          </header>
+          <div class="qa-grid">
+            <article class="qa">
+              <h4>Why I selected this piece</h4>
+              <p>This assignment asked me to explain the same topic — hydrogen fuel-cell vehicles — to two very different audiences: a high school reader and an expert/STEM reader. I chose it because it is the clearest test of whether I actually understand my subject, since simplifying it accurately for a novice is arguably harder than writing for an expert.</p>
+            </article>
+            <article class="qa">
+              <h4>What it says about my development as a communicator</h4>
+              <p>This piece shows I can adjust vocabulary, structure, and depth without changing the underlying facts. The high-school version leans on plain language, icons, and a big question framing, while the expert version introduces system boundaries, energy-management priorities, and well-to-wheel pathway analysis. Producing both from the same source material showed me that audience is not a formality — it changes what counts as a complete explanation.</p>
+            </article>
+            <article class="qa">
+              <h4>Did this piece push me out of my comfort zone?</h4>
+              <p>Yes. I am used to writing dense paragraphs for an instructor who already knows the subject. Designing a visual, icon-driven handout for a high schooler who has never heard of a fuel cell meant cutting content I was proud of and trusting that a simpler explanation was still a good one.</p>
+            </article>
+            <article class="qa">
+              <h4>Is this my best work? Why or why not?</h4>
+              <p>It is not necessarily my most polished writing, but it may be my most versatile. I am including it because the portfolio itself needs to work for a general audience — a future employer skimming it is closer to my high-school reader than my expert reader — so this piece is direct proof I can write for someone like them.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Panel 3 -->
+        <div class="tab-panel" id="panel-3" role="tabpanel" aria-labelledby="tab-3" tabindex="0" hidden>
+          <header class="panel-head">
+            <h3>Cover Letter — Junior Mechanical Engineer</h3>
+            <p class="panel-sub">Assignment 1 — ENG 2003</p>
+          </header>
+          <div class="qa-grid">
+            <article class="qa">
+              <h4>Why I selected this piece</h4>
+              <p>This cover letter, written for a Junior Mechanical Engineer position, is the piece most directly tied to how I will actually use communication skills after graduation. I chose it because a portfolio built around a job search should include a piece that demonstrates I can write persuasively about myself, not just about a technical topic, and because it is the clearest example of me deliberately following a taught structure rather than writing on instinct.</p>
+            </article>
+            <article class="qa">
+              <h4>What it says about my development as a communicator</h4>
+              <p>Writing this letter taught me the difference between listing qualifications and making a case for them. I built it around the three-part Cover Letter Anatomy from Lecture 02: introduction and background, expansion of skills, and closure — opening by naming the position and my relevant skills, then expanding on those skills with concrete examples from my CAD and team project work rather than formal job history, since the lecture specifically says to substitute course work when you lack direct experience. I closed by summarizing why I would be a good fit and thanking the reader, which follows the lecture's closure guidance directly. I also kept Lecture 02's general tips in mind: remembering the audience, not repeating my resume, and asking myself what makes me unique.</p>
+            </article>
+            <article class="qa">
+              <h4>Did this piece push me out of my comfort zone?</h4>
+              <p>Yes. Self-promotion does not come naturally to me, and cover letters require a tone that is confident without becoming exaggerated. The lecture's style guidance — stay concise, use correct grammar, check your voice — sounds simple, but finding that voice and keeping the letter to one focused page took more editing than a longer technical piece would have.</p>
+            </article>
+            <article class="qa">
+              <h4>Is this my best work? Why or why not?</h4>
+              <p>It is strong, but it is also the shortest and least technically complex piece in my showcase, so I would rank it just behind the Term Project 1 report. I am including it because it demonstrates a different register of communication — persuasive, personal, and concise — and because a cover letter's whole job is to build credibility with a stranger in one page, which connects directly to credibility as one of the 7 C's covered in the same lecture.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Panel 4 -->
+        <div class="tab-panel" id="panel-4" role="tabpanel" aria-labelledby="tab-4" tabindex="0" hidden>
+          <header class="panel-head">
+            <h3>Sleep Quality Monitor — Final Project Report</h3>
+            <p class="panel-sub">EECS 1011 · Outside Course Piece</p>
+          </header>
+          <div class="qa-grid">
+            <article class="qa">
+              <h4>Why I selected this piece</h4>
+              <p>This is my final report from EECS 1011, where I built a Sleep Quality Monitor using an Arduino-based sensor kit and MATLAB. I chose it as my outside piece because it is a technical communication challenge from a completely different context — explaining a hardware-and-code project rather than a research topic — and it connects to a UN Sustainable Development Goal (Good Health and Well-Being), giving it a real-world angle.</p>
+            </article>
+            <article class="qa">
+              <h4>What it says about my development as a communicator</h4>
+              <p>This report shows I can communicate a project across multiple formats at once: a written system design explanation, color-coded plots, flowcharts, and a supporting video. I also had to communicate honestly about problems along the way — for instance, explaining that my light sensor initially gave inverted results, and how I fixed it through empirical testing rather than getting it right the first time. Documenting my use of AI for debugging, and being specific about what it did and did not do, was also a communication decision, not just a technical one.</p>
+            </article>
+            <article class="qa">
+              <h4>Did this piece push me out of my comfort zone?</h4>
+              <p>Yes. Explaining calibration logic, weighted scoring formulas, and hardware/software integration to a reader who was not in the room while I built it was a different challenge than a research-based ENG 2003 report, and it required me to be transparent about what still did not work perfectly, such as the sound sensor's relative rather than absolute values.</p>
+            </article>
+            <article class="qa">
+              <h4>Is this my best work? Why or why not?</h4>
+              <p>It is not my most polished prose — there are a few rougher sentences I would tighten if I revised it again — but it may be my most complete demonstration of communicating a real, hands-on engineering project honestly, challenges included, which is exactly what employers say they want to see.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REFLECTION ============ -->
+  <section class="section section-reflection" id="reflection">
+    <div class="section-inner">
+      <p class="section-kicker">02 / Reflection</p>
+      <h2>On the Course, and On Myself</h2>
+      <p class="section-intro">ENG 2003 turned out to be less about grammar and more about decision-making — who my reader is, what they need, and what happens when I get that wrong.</p>
+
+      <div class="reflection-jump">
+        <a href="#reflect-a">Part A — Overall Course Reflection</a>
+        <a href="#reflect-b">Part B — Personal Growth &amp; Development</a>
+      </div>
+
+      <div class="reflection-body">
+        <article class="reflect-part" id="reflect-a">
+          <h3><span>Part A</span>Overall Course Reflection</h3>
+          <p>ENG 2003 was different from what I expected walking in. I assumed a communication course for engineers would mostly be about grammar and formatting, but the course was really about decision-making: who is my reader, what do they need from me, and what happens if I get that wrong. That reframing connects directly to <span class="axiom">Axiom 9 — you cannot not communicate</span>: even a report that never states who it is written for still communicates something to its reader, usually confusion. In Term Project 1, I had to decide how much technical background a general engineering audience needed before I could introduce hydrogen fuel-cell vehicles, and getting that wrong in the Phase 2 draft is exactly what my peer reviewers flagged in Phase 3. In Assignment 3, the same topic had to be rebuilt twice for two different readers, which is really <span class="axiom">Axiom 8 — communication is audience-centred</span>, put into practice rather than left as a slide in a lecture deck.</p>
+
+          <p>The most useful course content for me was the peer-assessment process through PeerScholar, and it is best explained through two of the other axioms: <span class="axiom">communication involves an element of relation as well as content (Axiom 2)</span>, and <span class="axiom">communication involves interpersonal risk (Axiom 6)</span>. Before this course, I read feedback purely for its content, what to fix, and ignored the relational side. Reading three separate reviewers' comments on my Term Project 1 report differently this time, I noticed that a correction like Reviewer 2's grammar fix was almost pure content, while Reviewer 1's note about awkward phrasing in my letter of transmittal also carried a relational signal: the reviewer wanted the report to succeed, not just to list my errors. Recognizing that risk and relation, not just content, made it much easier to actually use the feedback instead of getting defensive about it: one reviewer flagged mechanics and transitions, one flagged the title and a grammar error, one flagged terminology and source framing, and none of the three contradicted each other, which let me revise all three areas rather than just the loudest complaint.</p>
+
+          <p>The topic I found most interesting was audience adaptation, mainly because Assignment 3 made <span class="axiom">Axiom 8 (audience-centred communication)</span> concrete instead of abstract, and it connected directly to the Rhetorical Triangle covered in the same lecture. Producing a high-school version and an expert version of the same hydrogen fuel-cell content showed me that the balance of ethos, pathos, and logos has to shift with the reader: the high-school handout leaned on pathos and a simple, curiosity-driven big question, while the expert handout leaned harder on logos, with system boundaries and well-to-wheel pathway analysis doing the persuading instead of a friendly tone. It also meant trading off two of the 7 C's from Lecture 02 against each other: the high-school version prioritized clarity and conciseness over completeness, while the expert version kept more completeness because that reader could handle the extra density. It is one thing to be told to know your audience; it is another to sit down and realize that a diagram, an icon, and a one-sentence question can carry the same technical content as three paragraphs, just for a different reader.</p>
+        </article>
+
+        <article class="reflect-part" id="reflect-b">
+          <h3><span>Part B</span>Personal Growth &amp; Development</h3>
+          <p>Before ENG 2003, my writing leaned toward explaining everything I knew rather than what the reader actually needed, which in hindsight ran into <span class="axiom">Axiom 7 — communication is ambiguous</span>, more often than I realized, and fell short on clarity and coherence, two of the 7 C's from Lecture 02. Comparing my Term Project 1 draft to the revised Phase 4 version shows that shift directly: sentences that repeated a definition twice, like the green/grey/blue hydrogen classification flagged by Reviewer 3, created ambiguity about which explanation was the real one, and were cut down to a single clear, coherent reference instead of two.</p>
+
+          <p>The communication skill I improved the most is probably structured revision — actually using outside feedback to change a document rather than just polishing my own read of it. This ties to <span class="axiom">Axiom 4 — communication establishes and maintains credibility</span>, which is also literally the seventh of the 7 C's from Lecture 02. My Term Project 1 report earns more credibility in its final form because the Discussion section names its own evidence gap instead of overstating the conclusion, and because it is backed by consistent IEEE citations and an executive summary, none of which came naturally to me at the start of the term.</p>
+
+          <p>The skill I still need to work on is self-promotion, which maps onto two axioms at once: <span class="axiom">communication is a way to exert influence (Axiom 5)</span> and <span class="axiom">communication involves interpersonal risk (Axiom 6)</span>. Writing my Assignment 1 cover letter was noticeably harder than writing the technical report, because I had to use ethos and pathos, not just logos, to make a case for my own value instead of citing someone else's evidence, and that felt riskier than reporting facts. I would like to get more comfortable balancing all three appeals when I am the subject of the message, since that is exactly what I will need for job applications and interviews after graduation.</p>
+
+          <p>This course changed how I will approach other engineering courses and, eventually, engineering practice. I now treat a lab report or a design document as an interaction between people (<span class="axiom">Axiom 1</span>) with a specific reader in mind — a TA, a client, a future teammate — rather than a formality to complete after the real engineering work is done, because I now understand that I cannot not communicate something to that reader either way (<span class="axiom">Axiom 9</span>). The EECS 1011 report I chose as my outside showcase piece is proof this is already happening: I documented my debugging process and my use of AI as deliberately as I documented my sensor calibration, because I now think of both as part of communicating the project honestly to whoever reads it next.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BEYOND THE CLASSROOM (Uniquely Tailored) ============ -->
+  <section class="section section-beyond" id="beyond">
+    <div class="section-inner">
+      <p class="section-kicker">03 / Beyond the Classroom</p>
+      <h2>Uniquely Me</h2>
+      <p class="section-intro">A portfolio should say something about the person behind the coursework — here's a project or hobby outside ENG 2003 that shaped the engineer (and communicator) I'm becoming.</p>
+
+      <!--
+        TODO — replace this entire placeholder card with your real content:
+        1. Swap the <div class="beyond-photo"> placeholder for an <img> of your project/hobby.
+        2. Replace the heading and paragraph with your own description.
+        3. Make sure to explicitly name a transferable skill this activity gave you
+           (rubric asks for this) — e.g. precision, iteration, teamwork, creative risk-taking.
+      -->
+      <div class="beyond-card placeholder-card">
+        <div class="beyond-photo">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l4.5-4.5a2 2 0 0 1 2.8 0L15 15"/><circle cx="16" cy="9" r="1.5"/></svg>
+          <p>Add a photo, prototype shot, CAD render, or screenshot here</p>
+        </div>
+        <div class="beyond-copy">
+          <h3>Your Passion Project Goes Here</h3>
+          <p class="placeholder-text">This is a placeholder. Swap it out for a personal project, hobby, or prototype — something you built, a design you're proud of, or a skill you've developed outside class. Briefly describe what it is, why it matters to you, and name at least one transferable skill it gave you (e.g., iteration under constraints, precision, teamwork, creative problem-solving). Rubric tip: presenting it visually (photo, screenshot, diagram) scores better than text alone.</p>
+          <a class="btn btn-outline" href="#" aria-disabled="true">Add a link (GitHub, CAD, demo video)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONNECT ============ -->
+  <section class="section section-connect" id="connect">
+    <div class="connect-inner">
+      <p class="section-kicker section-kicker--invert">04 / Connect</p>
+      <h2>Let's Talk Engineering</h2>
+      <p class="connect-lede">Whether it's a job opportunity, a project collaboration, or just a question about the work above — I'd like to hear from you.</p>
+      <div class="connect-actions">
+        <!-- TODO: replace href="#" with your real LinkedIn URL -->
+        <a class="btn btn-primary btn-lg" href="#" target="_blank" rel="noopener">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z" stroke-linejoin="round"/><path d="M8 10.5v6M8 8v.01M12 16.5v-3.8c0-1.5 1-2.4 2.3-2.4 1.3 0 2.2.9 2.2 2.4v3.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Connect on LinkedIn
+        </a>
+        <!-- TODO: replace mailto:# with your real email address -->
+        <a class="btn btn-outline-invert btn-lg" href="mailto:#">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Email Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; 2026 Deven Patel. Built for ENG 2003 — Term Project 02, Lassonde School of Engineering, York University.</p>
+    <nav aria-label="Footer">
+      <a href="#showcase">Showcase</a>
+      <a href="#reflection">Reflection</a>
+      <a href="#beyond">Beyond the Classroom</a>
+      <a href="#connect">Connect</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
