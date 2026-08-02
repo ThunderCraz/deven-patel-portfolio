@@ -442,6 +442,7 @@ p { margin: 0 0 var(--space-2); color: var(--ink-600); }
 }
 .panel-head { margin-bottom: var(--space-3); border-bottom: 1px solid var(--line-soft); padding-bottom: var(--space-2); }
 .panel-head h3 { margin-bottom: 0.2em; }
+.panel-doc-btn { margin-top: var(--space-2); }
 .panel-sub {
   font-family: var(--font-mono);
   font-size: 0.82rem;
