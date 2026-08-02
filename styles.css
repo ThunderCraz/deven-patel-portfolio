@@ -483,50 +483,7 @@ p { margin: 0 0 var(--space-2); color: var(--ink-600); }
 
 /* ============ Reflection ============ */
 .section-reflection { background: var(--paper-1); }
-.reflection-jump {
-  display: flex;
-  gap: var(--space-3);
-  flex-wrap: wrap;
-  margin-bottom: var(--space-4);
-}
-.reflection-jump a {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  text-decoration: none;
-  color: var(--navy-800);
-  border: 1px solid var(--line-soft);
-  padding: 0.6em 1em;
-  border-radius: var(--radius-sm);
-  background: var(--paper-0);
-}
-.reflection-jump a:hover { border-color: var(--copper-500); color: var(--copper-600); }
-
-.reflection-body {
-  display: grid;
-  gap: var(--space-5);
-}
-.reflect-part {
-  background: var(--paper-0);
-  border: 1px solid var(--line-soft);
-  border-radius: var(--radius-md);
-  padding: var(--space-4) var(--space-5);
-  scroll-margin-top: 90px;
-}
-.reflect-part h3 {
-  display: flex;
-  align-items: baseline;
-  gap: 0.7em;
-  margin-bottom: var(--space-3);
-}
-.reflect-part h3 span {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: #fff;
-  background: var(--copper-500);
-  padding: 0.3em 0.7em;
-  border-radius: 4px;
-  letter-spacing: 0.05em;
-}
+.tab-list--two { grid-template-columns: repeat(2, 1fr); }
 .reflect-part p { font-size: 1.02rem; color: var(--ink-900); max-width: 76ch; }
 
 /* ============ Beyond the Classroom ============ */
