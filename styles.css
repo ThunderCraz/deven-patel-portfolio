@@ -334,12 +334,12 @@ p { margin: 0 0 var(--space-2); color: var(--ink-600); text-align: justify; text
 .hero-photo-wrap {
   justify-self: center;
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 .photo-inner {
   position: relative;
-  display: inline-block;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
 }
 .photo-frame {
   width: min(320px, 100%);
