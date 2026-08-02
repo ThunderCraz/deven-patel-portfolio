@@ -356,7 +356,9 @@ p { margin: 0 0 var(--space-2); color: var(--ink-600); text-align: justify; text
   border-style: solid;
   object-fit: cover;
   width: min(320px, 100%);
+  aspect-ratio: 996 / 1396;
   height: auto;
+  padding: 0;
 }
 .frame-corner {
   position: absolute;
