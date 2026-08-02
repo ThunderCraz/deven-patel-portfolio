@@ -74,6 +74,26 @@
     });
   });
 
+  /* ---------- Inline document viewer toggle ---------- */
+  document.querySelectorAll("[data-doc-toggle]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var viewer = document.getElementById(btn.getAttribute("data-doc-toggle"));
+      if (!viewer) return;
+      var willShow = viewer.hidden;
+      if (willShow) {
+        var iframe = viewer.querySelector("iframe");
+        if (iframe && !iframe.src) {
+          iframe.src = iframe.getAttribute("data-src");
+        }
+        viewer.hidden = false;
+        btn.textContent = btn.textContent.replace("View", "Hide");
+      } else {
+        viewer.hidden = true;
+        btn.textContent = btn.textContent.replace("Hide", "View");
+      }
+    });
+  });
+
   /* ---------- Active nav-link highlighting on scroll ---------- */
   var sections = document.querySelectorAll("main section[id]");
   var navLinks = document.querySelectorAll(".main-nav a, .mobile-nav a");
